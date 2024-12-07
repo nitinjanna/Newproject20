@@ -9,6 +9,7 @@ pipeline
             {
                 git branch: 'main', url: 'https://github.com/nitinjanna/Newproject20.git'
             }
+        }
           stage("count_build")
           {
             steps
